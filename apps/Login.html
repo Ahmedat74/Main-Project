@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/apps/assets/bootstrap/boots css/bootstrap.css">
+    <link rel="stylesheet" href="/apps/assets/bootstrap/boots css/bootstrap.min.css">
+    <link rel="stylesheet" href="/apps/assets/css/Login.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="container">
+        <form class="form-page" id="login">
+            <h2>Login</h2>
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" required name="username">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required name="email">
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" required name="password">
+            </div>
+            <div class="form-group">
+                <button type="submit"><a class="Log btn-warning" href="/Templates/Home.html">Login</a></button>
+            </div>
+            <div id="error-message"></div>
+            <div class="form-group">
+                <a href="/apps/Register.html">Register</a>
+            </div>
+            <div class="form-group">
+                <a href="/apps/ForgetPassword.html">Forgot Password?</a>
+            </div>
+        </form>
+    </div>
+    <script src="/apps/assets/js/Login.js"></script>
+</body>
+</html>
