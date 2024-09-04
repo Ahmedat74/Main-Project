@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+}
+body{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f2f2f2;
+}
+.container{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+}
+.form{
+    width: 500px;
+    
+    background-color: #e1dfdf;
+    border-radius: 5px;
+    
+        padding: 20px;
+       
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+.form h2{
+text-align: center;
+    margin-bottom: 20px;
+}
+.form .form-group{
+    margin-bottom: 20px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+}
+.form .form-group label{
+    font-weight: bold;
+        margin-bottom: 5px;
+}
+.form .form-group button{
+    margin-top: 10px;
+        padding: 10px 20px;
+        background-color: #0a4581;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+}
+
+.form .form-group button:hover{
+    background-color: #052f59;
+}
+.form .form-group button a{
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+}
+.form p{
+    text-align: center;
+    margin-top: 10px;
+}
+.form p a{
+    color: #0a4581;
+    text-decoration: underline;
+}
