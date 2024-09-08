@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding:0;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+body{
+    background-color: beige;
+    display: flex;
+}
+.slidebar:hover{
+   width: 260px;
+}
+.slidebar{
+    background-color: rgb(18, 192, 102);
+        width: 60px;
+        height: 100vh;
+        padding: 20px;
+        overflow: hidden;
+        transition: .5s;
+}
+.slidebar ul{
+    list-style: none;
+        position: relative;
+        height: 95%;
+}
+.slidebar ul li{
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.slidebar ul li a{
+    display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: white;
+        margin: 5px 0;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        transition: .5s;
+}
+
+.slidebar ul li a:hover{
+    background-color: rgb(124, 150, 65);
+}
+
+.slidebar ul li a i{
+    font-size: 24px;
+}
+.log {
+    position: absolute;
+        bottom: 0;
+        width: 100%;
+}
+.log a{
+    color: white;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+}

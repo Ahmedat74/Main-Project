@@ -8,7 +8,7 @@ body{
         justify-content: center;
         align-items: center;
         height: 100vh;
-        background-color: #f2f2f2;
+        background-color:skyblue;
 }
 .container{
     display: flex;
@@ -41,6 +41,7 @@ text-align: center;
 .form .form-group label{
     font-weight: bold;
         margin-bottom: 5px;
+
 }
 .form .form-group button{
     margin-top: 10px;
@@ -68,4 +69,7 @@ text-align: center;
 .form p a{
     color: #0a4581;
     text-decoration: underline;
+}
+.form .form-group input{
+    border-radius: 15px;
 }

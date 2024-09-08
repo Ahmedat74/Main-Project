@@ -9,7 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f2f2f2;
+    background-color: skyblue;
 }
 .container{
     display:flex;
@@ -41,6 +41,7 @@ body{
 #login .form-group label{
     font-weight: bold;
     margin-bottom: 5px;
+
 }
 #login .form-group button {
     margin-top: 10px;
@@ -70,5 +71,8 @@ body{
 
 #login .form-group button:hover{
     background-color: #083359;
+}
+#login .form-group input{
+    border-radius: 15px;
 }
 
